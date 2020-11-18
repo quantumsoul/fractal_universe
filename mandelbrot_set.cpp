@@ -8,7 +8,6 @@ using namespace cv;
 
 int main()
 {
-	int iter=1000000;
     float i;
 	Point2f pos;
 	Mat img = Mat(1080, 1920, CV_8U, Scalar::all(0));
