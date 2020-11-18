@@ -27,8 +27,6 @@ int main()
 			img.at<uchar>(j, k) = (uchar)(i*255.0/50.0);
 		}
 	}
-	Mat reimg;
-	resize(img, reimg, Size(10000, 10000));
 	imshow("mandelbrot_set", img);
 	waitKey();
 	return 0;
